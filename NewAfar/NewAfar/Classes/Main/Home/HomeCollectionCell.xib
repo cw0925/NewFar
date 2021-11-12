@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HomeCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="67" height="84"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="67" height="84"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="announcement" translatesAutoresizingMaskIntoConstraints="NO" id="Jrj-ik-9IB">
+                        <rect key="frame" x="8" y="8" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Jrj-ik-9IB" secondAttribute="height" multiplier="1:1" id="SKB-J7-qs9"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="数据报表" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eD8-s0-2ca">
+                        <rect key="frame" x="0.0" y="63" width="67" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="eD8-s0-2ca" firstAttribute="top" secondItem="Jrj-ik-9IB" secondAttribute="bottom" constant="5" id="5el-mH-NpJ"/>
+                <constraint firstItem="Jrj-ik-9IB" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="CRz-Xv-4PX"/>
+                <constraint firstAttribute="trailing" secondItem="eD8-s0-2ca" secondAttribute="trailing" id="Vc9-0N-Zid"/>
+                <constraint firstItem="eD8-s0-2ca" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="XME-n8-Z6w"/>
+                <constraint firstAttribute="bottom" secondItem="eD8-s0-2ca" secondAttribute="bottom" id="XSD-4i-Fvl"/>
+                <constraint firstItem="Jrj-ik-9IB" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="nCQ-yk-q0r"/>
+                <constraint firstAttribute="trailing" secondItem="Jrj-ik-9IB" secondAttribute="trailing" constant="9" id="rBG-tv-gcr"/>
+            </constraints>
+            <size key="customSize" width="67" height="84"/>
+            <connections>
+                <outlet property="pic" destination="Jrj-ik-9IB" id="2z5-b4-0x4"/>
+                <outlet property="title" destination="eD8-s0-2ca" id="X89-v2-E1a"/>
+            </connections>
+            <point key="canvasLocation" x="553.5" y="254"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="announcement" width="80" height="80"/>
+    </resources>
+</document>

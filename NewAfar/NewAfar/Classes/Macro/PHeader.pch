@@ -1,0 +1,39 @@
+//
+//  PHeader.pch
+//  AFarSoft
+//
+//  Created by 陈伟 on 16/7/19.
+//  Copyright © 2016年 CW. All rights reserved.
+//
+
+#ifndef PHeader_pch
+#define PHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+/**引入文件*/
+#import "NetRequest.h"
+#import "DDXML.h"
+#import <UIKit/UIKit.h>
+#import "API.h"
+#import "GenerateUUID.h"
+#import "UIView+Toast.h"
+#import "MBProgressHUD+AddHud.h"
+#import "UITextView+YLTextView.h"
+#import "CurrentDate.h"
+#import "Masonry.h"
+#import "UIImageView+WebCache.h"
+#import "ShowAlter.h"
+#import "UIView+SDAutoLayout.h"
+#import "UITableView+SDAutoTableViewCellHeight.h"
+#import "IQKeyboardManager.h"
+#import "JudgePhone.h"
+#import "UIFont+Fit.h"
+#import "UIButton+WebCache.h"
+#import "MJRefresh.h"
+#import "UIScrollView+EmptyDataSet.h"
+#import "UIImage+Extension.h"
+#import "SysConfig.h"
+//绘制图表要引入的
+#import "NewAfar-Bridging-Header.h"
+#endif /* PHeader_pch */

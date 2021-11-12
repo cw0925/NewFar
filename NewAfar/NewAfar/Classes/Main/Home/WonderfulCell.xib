@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="WonderfulCell">
+            <rect key="frame" x="0.0" y="0.0" width="216" height="208"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="216" height="208"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PW3-MA-i47">
+                        <rect key="frame" x="0.0" y="0.0" width="216" height="208"/>
+                    </imageView>
+                    <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xke-Gv-eoT">
+                        <rect key="frame" x="0.0" y="172" width="216" height="36"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="PW3-MA-i47" secondAttribute="bottom" id="53g-jy-59e"/>
+                <constraint firstItem="PW3-MA-i47" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="OrA-Of-J55"/>
+                <constraint firstItem="PW3-MA-i47" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="oex-3p-9U3"/>
+                <constraint firstAttribute="trailing" secondItem="PW3-MA-i47" secondAttribute="trailing" id="rmn-1J-AsN"/>
+            </constraints>
+            <size key="customSize" width="216" height="208"/>
+            <connections>
+                <outlet property="content" destination="xke-Gv-eoT" id="sRO-zK-WMp"/>
+                <outlet property="img" destination="PW3-MA-i47" id="hbC-fj-Wg2"/>
+            </connections>
+            <point key="canvasLocation" x="379" y="235"/>
+        </collectionViewCell>
+    </objects>
+</document>

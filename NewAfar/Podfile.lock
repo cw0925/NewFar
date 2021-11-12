@@ -1,0 +1,82 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - DXPopover (0.1.1)
+  - FDFullscreenPopGesture (1.1)
+  - IQKeyboardManager (6.5.6)
+  - KissXML (5.1.2):
+    - KissXML/Core (= 5.1.2)
+  - KissXML/Core (5.1.2)
+  - Masonry (1.0.1)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.1.12)
+  - pop (1.0.9)
+  - SDAutoLayout (2.1.7)
+  - SDCycleScrollView (1.65):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - Toast (3.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 4.0.1)
+  - DXPopover (~> 0.1.1)
+  - FDFullscreenPopGesture (~> 1.1)
+  - IQKeyboardManager (~> 6.5.6)
+  - KissXML (~> 5.1.2)
+  - Masonry (~> 1.0.1)
+  - MBProgressHUD (~> 0.9.2)
+  - MJRefresh (~> 3.1.12)
+  - pop (~> 1.0.9)
+  - SDAutoLayout (~> 2.1.7)
+  - SDCycleScrollView (~> 1.65)
+  - Toast (~> 3.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - DXPopover
+    - FDFullscreenPopGesture
+    - IQKeyboardManager
+    - KissXML
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - pop
+    - SDAutoLayout
+    - SDCycleScrollView
+    - SDWebImage
+    - Toast
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  DXPopover: 13e6bbd1a0da4e62b2190de51f43a94850769e0f
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  KissXML: 246c842586bb77110e04fb88e19376d96245c856
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SDAutoLayout: e9b36d04b8c0b504762a04d76fbbe5108944297a
+  SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  Toast: 32c59229abfcf41850162b83bb9259dc84372473
+
+PODFILE CHECKSUM: 27c2223bc7ac9afc380c088cb2dc023d272f4bae
+
+COCOAPODS: 1.9.3

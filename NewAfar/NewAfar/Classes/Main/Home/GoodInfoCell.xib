@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="GoodInfoCell">
+            <rect key="frame" x="0.0" y="0.0" width="334" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="334" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="商品编码" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g7n-vO-dig">
+                        <rect key="frame" x="8" y="8" width="110" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="110" id="sch-Ue-8wz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="商品名称" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HS5-Ek-nuw">
+                        <rect key="frame" x="135" y="8" width="191" height="27"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ASg-k2-hto">
+                        <rect key="frame" x="126" y="0.0" width="1" height="43"/>
+                        <color key="backgroundColor" red="0.82745098039999998" green="0.83137254900000002" blue="0.83529411760000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="c0n-J4-lOh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="ASg-k2-hto" secondAttribute="bottom" constant="-8" id="4es-xc-hJ5"/>
+                    <constraint firstItem="HS5-Ek-nuw" firstAttribute="leading" secondItem="ASg-k2-hto" secondAttribute="trailing" constant="8" id="6QL-0m-qBV"/>
+                    <constraint firstItem="HS5-Ek-nuw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="BJd-Vj-xpj"/>
+                    <constraint firstItem="HS5-Ek-nuw" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="H9I-Fx-UyN"/>
+                    <constraint firstItem="ASg-k2-hto" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="MMv-pb-PwI"/>
+                    <constraint firstItem="HS5-Ek-nuw" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="NuJ-RL-pxX"/>
+                    <constraint firstItem="g7n-vO-dig" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="RM0-bo-diR"/>
+                    <constraint firstItem="ASg-k2-hto" firstAttribute="leading" secondItem="g7n-vO-dig" secondAttribute="trailing" constant="8" id="bQ5-2I-ga3"/>
+                    <constraint firstItem="g7n-vO-dig" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="bni-K0-ota"/>
+                    <constraint firstItem="g7n-vO-dig" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="fGu-d0-1Si"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="code" destination="g7n-vO-dig" id="v60-co-sG3"/>
+                <outlet property="name" destination="HS5-Ek-nuw" id="rJc-Pe-4W6"/>
+            </connections>
+            <point key="canvasLocation" x="204" y="382"/>
+        </tableViewCell>
+    </objects>
+</document>
